@@ -1,0 +1,140 @@
+
+*{
+    list-style: none;
+}
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+/* font-family: 'Roboto Slab', serif; */
+:hover{
+    text-decoration: none !important;
+}
+a:hover{
+    color: initial;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* navigation section */
+.nav-section .col-md-2 p{
+    color: #d4d4d4;
+    font-size: 20px !important;
+}
+.nav-links{
+    text-align: right;
+}
+.nav-links li{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    padding: 11px;
+    border-radius: 5px;
+}
+.nav-links li::after{
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: rgba(255,255,255,.1);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav-links li:hover:after{
+    width: 100%;
+    left: 0;
+}
+.nav-links li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #f1f1f1;
+    font-weight: 500;
+}
+.nav-section i{
+    color: #f1f1f1;
+}
+.wraper{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../img/Mountains_comp.png);
+    background-size: cover;
+    background-position: center;
+}
+/* hero section */
+.hero-section .container{
+    padding: 100px 0 150px 0;
+}
+.hero-section .container .display-3{
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+}
+.hero-section .lead{
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 25px;
+}
+.hero-section button{
+    font-size: 13px;
+    background-color: #e91e63;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+/* quality-section */
+.quality-title p{
+    padding: 0 150px;
+    color: #999;
+    font-size: 18px;
+}
+.quality-section .container{
+    padding: 60px 0;
+}
+.quality-section{
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+    margin: auto;
+    margin-top: -80px;
+    background-color: #fff;
+    max-width: 90%;
+}
+.quality-section h5{
+    margin: 20px 0;
+    font-family: 'Roboto Slab', serif;
+}
+.quality-section p{
+    color: #999;
+}
+.quality-section .row .col-md-4:nth-child(1) i{
+    color: #de4b39;
+}
+.quality-section .row .col-md-4:nth-child(2) i{
+    color: #55acef;
+}
+.quality-section .row .col-md-4:nth-child(3) i{
+    color: #ea4c89;
+}
+.quality-section-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/about-background.png);
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.quality-section-bg h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.quality-section-bg p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.quality-section-bg .container{
+    max-width: 95% !important;
+}
+img[alt="device"]{
+    margin-top: 80px;
+}
